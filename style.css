@@ -1,0 +1,47 @@
+body {
+    background:#d2d2c1 url(imagens-projeto-anna-bella/fundo.png);
+    font: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal { /* essa id fo criada para manter todo conteúdo dentro da mesma div*/
+    width: 900px;
+    border: solid 1px red;
+     
+}
+
+#menu {
+    background: #c5c5b2;
+    padding: 20px; /* espaçamento interno*/
+    border: red 1px solid;
+}
+
+#conteudo {
+    background: #e8e8d9 ;
+    padding: 10px; /* mais uma vez foi utilizado uma padding para melhorar o espaçamento da borda com o texto*/
+}
+
+a { /* formatação dos links*/
+    
+    color: #4b566a;
+    text-decoration: none; /* serve para retirar o underline do link*/
+    font-weight: bold; /* destacando os links, pesquisar no w3school*/
+    padding: 5px; /* espaçamento entre os menus*/
+    border: solid red 1px;
+
+}
+
+#rodape {
+    text-align: center;
+    border: solid red 1px;
+}
+
+h1 {
+    color: #69695d;
+    font-size: 1.2em;
+}
+
+.img-campanha {
+    border: 10px solid #c3c3ae;
+}
+
